@@ -20,7 +20,7 @@ const Homecards = () => {
               <h2 className="text-2xl font-bold">For Developers</h2>
               {/* Card description */}
               <p className="mt-2 mb-4">
-                Browse our React jobs and start your career today
+                Browse freelance jobs and start your career today
               </p>
               {/* Link to browse jobs */}
               <Link
@@ -31,7 +31,7 @@ const Homecards = () => {
               </Link>
             </Card>
             {/* Card for Employers with custom background */}
-            <Card bg='bg-indigo-100'>
+            <Card bg='bg-green-100'>
               {/* Card title */}
               <h2 className="text-2xl font-bold">For Employers</h2>
               {/* Card description */}
@@ -41,7 +41,7 @@ const Homecards = () => {
               {/* Link to add a job */}
               <Link
                 to="/add-job"
-                className="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
+                className="inline-block bg-green-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
               >
                 Add Job
               </Link>

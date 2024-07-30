@@ -16,7 +16,7 @@ const NotFoundPage = () => {
       {/* Link to navigate back to the home page */}
       <Link
         to="/"
-        className="text-white bg-indigo-700 hover:bg-indigo-900 rounded-md px-3 py-2 mt-4"
+        className="text-white bg-green-500 hover:bg-green-900 rounded-md px-3 py-2 mt-4"
       >
         Go Back
       </Link>
